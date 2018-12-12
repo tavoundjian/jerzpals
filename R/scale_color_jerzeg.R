@@ -44,7 +44,7 @@
 
 scale_color_jerzeg <- function (..., alpha = 1, begin = 0, end = 1, direction = 1, discrete = FALSE, option = "B") {
   if (discrete) {
-    discrete_scale("fill", "viridis", jerz_pal(alpha, begin, end, direction, option), ...)
+    discrete_scale("colour", "viridis", jerz_pal(alpha, begin, end, direction, option), ...)
   }
   else {
     scale_color_gradientn(colours = jerz(256, alpha, begin, end, direction, option), ...)
