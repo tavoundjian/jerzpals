@@ -60,3 +60,5 @@ jerz <- function (n, alpha = 1, begin = 0, end = 1, direction = 1, option = "B")
   cols <- fn_cols(seq(begin, end, length.out = n))/255
   grDevices::rgb(cols[, 1], cols[, 2], cols[, 3], alpha = alpha)
 }
+
+# Boop
