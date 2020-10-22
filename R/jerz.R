@@ -25,7 +25,7 @@
 #'
 #' @export
 
-
+# Added a comment
 
 jerz <- function (n, alpha = 1, begin = 0, end = 1, direction = 1, option = "B")
 {
